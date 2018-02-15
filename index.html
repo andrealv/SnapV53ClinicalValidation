@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SnapV53ClinicalValidation</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.0.1/color-thief.min.js"></script>
+  <script src="libs/jsonpath.js"></script>
+  <script src="libs/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+  <script src="dist/DistLibLegacy.js"></script>
+  <script src="dist/DistLibBundle.js"></script>
+
+  <script src="./script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <!-- 283508-388503-100101-921034 -->
+
+</head>
+
+<body class="HTML5-deploy-wrapper">
+
+  <div id="j_754" class="snapp-html5 rotatable element fc Screen" overlay-color="rgba(255,255,255,0.75)" spinner-url="" obj-name="S2Main" style="background-color: rgb(255, 255, 255); background-image: url(&quot;https://staging.snapp.click/api/v2/raws/projects/resources/c4245426-a4ca-47dd-9e90-4df20c18e4b9&quot;); width: 375px; height: 667px; transform: translate(68px, 116px) rotate(0deg);"><img src="" crossorigin="anonymous" style="display: none">
+    <div id="j_755" class="snapp-html5 rotatable element fc Button" obj-name="B2Enroll" style="width: 225px; height: 30px; transform: translate(75px, 560px) rotate(0deg);">
+      <div type="button" class="html5 btn system" fontstyle="bold" style="opacity: 1; background-color: rgba(255, 255, 255, 0); text-align: center; justify-content: center; font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">ENROLL</span>
+      </div>
+    </div>
+    <div id="j_756" class="snapp-html5 rotatable element fc Label" obj-name="B2LoginButtonStyle" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: 60px; transform: translate(0px, 0px); bottom: 110px; right: 30px; left: 30px;">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+          <style>
+            .main-button {
+              background: #2980b9;
+              background: -moz-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: -webkit-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: linear-gradient(to right, #2980b9 0%, #3498db 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2980b9', endColorstr='#3498db', GradientType=0);
+              width: 295px;
+              height: 40px;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+              margin: 10px;
+              border-radius: 200px;
+            }
+
+          </style>
+          <div class="main-button"></div>
+        </div>
+      </div>
+    </div>
+    <div id="j_757" class="snapp-html5 rotatable element fc Button" obj-name="B2Login" original-width="295" style="width: auto; height: 40px; transform: translate(0px, 0px); left: 40px; right: 40px; bottom: 118px;">
+      <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 149, 219, 0); text-align: center; justify-content: center; font-size: 16px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">LOGIN</span>
+      </div>
+    </div>
+    <div id="j_758" class="snapp-html5 rotatable element fc Image" obj-name="I2Logo" original-width="255" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: auto; height: 64px; transform: translate(0px, 0px); top: 270px; right: 60px; left: 60px;"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/ed29ed77-aa51-4a04-ab3c-e9bc1c5de494" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+  </div>
+  <div id="j_759" class="snapp-html5 rotatable element fc Screen" overlay-color="rgba(255,255,255,0.75)" spinner-url="" obj-name="S7MultipleText" style="background-color: rgb(255, 255, 255); background-image: url(&quot;https://staging.snapp.click/api/v2/raws/projects/resources/7cfc00ce-d16e-47a6-a34e-8f88f9344fb4&quot;); width: 375px; height: 667px; transform: translate(474px, 107px) rotate(0deg);"><img src="" crossorigin="anonymous" style="display: none">
+    <div id="j_760" class="snapp-html5 rotatable element fc Container" obj-name="S7ParentContainer" style="opacity: 1; background-color: rgb(248, 248, 248); overflow: hidden; width: 375px; height: 50px; transform: translate(0px, 0px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_761" class="snapp-html5 rotatable element fc Container" obj-name="C7Parent" style="opacity: 1; background-color: rgba(247, 247, 247, 0); overflow: hidden; width: 133px; height: 52px; transform: translate(0px, 0px) rotate(0deg);">
+        <div class="container"></div>
+        <div id="j_762" class="snapp-html5 rotatable element fc Image" obj-name="I7Parent" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 16px; height: 30px; transform: translate(11px, 11px) rotate(0deg);"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/cb54411f-9bdb-46cd-8173-b18d3c502900" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+        <div id="j_763"
+          class="snapp-html5 rotatable element fc Label" obj-name="L7Parent" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 84px; height: 40px; transform: translate(0px, 0px); top: 6px; left: 32px;">
+          <div class="label-wrapper">
+            <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="parent" fontstyle="bold" style="font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: left; vertical-align: middle; max-width: 84px; text-overflow: clip; height: 40px; padding: inherit; font-family: Montserrat-Medium;">parent</div>
+          </div>
+        </div>
+      </div>
+      <div id="j_764" class="snapp-html5 rotatable element fc Image" obj-name="I7Logo" original-width="175" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: auto; height: 40px; transform: translate(0px, 0px); left: 100px; right: 100px; top: 5px;"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/d619a128-8b56-43f2-aeb1-787569a6dd08" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+      <div id="j_765" class="snapp-html5 rotatable element fc Label"
+        obj-name="L7TopLink" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 58px; height: 40px; transform: translate(317px, 5px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="C Help" fontstyle="bold" style="font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: center; vertical-align: middle; max-width: 58px; text-overflow: clip; height: 40px; padding: inherit; font-family: Montserrat-Medium;">C&nbsp;Help</div>
+        </div>
+      </div>
+    </div>
+    <div id="j_766" class="snapp-html5 rotatable element fc Label" obj-name="L7Title" original-width="305" style="background-color: rgba(26, 24, 24, 0); opacity: 1; width: auto; height: 60px; transform: translate(0px, 0px); top: 70px; left: 35px; right: 35px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Title" fontstyle="normal" style="font-size: 28px; font-style: normal; font-weight: normal; color: rgb(67, 67, 67); text-align: left; vertical-align: middle; max-width: 305px; text-overflow: clip; height: 60px; padding: inherit; font-family: Montserrat-SemiBold;">Title</div>
+      </div>
+    </div>
+    <div id="j_767" class="snapp-html5 rotatable element fc Label" obj-name="L7Info" original-width="305" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 408px; transform: translate(0px, 0px); left: 35px; right: 35px; top: 140px;">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">label</div>
+      </div>
+    </div>
+    <div id="j_768" class="snapp-html5 rotatable element fc Container" obj-name="C7Text1" original-width="315" style="opacity: 1; background-color: rgba(209, 52, 52, 0); overflow: hidden; width: auto; height: 63px; transform: translate(0px, 270px); left: 30px; right: 30px;">
+      <div class="container"></div>
+      <div id="j_769" class="snapp-html5 rotatable element fc Label" obj-name="C7Text1Line" original-height="63" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: auto; transform: translate(0px, 0px); top: 0px; left: 0px; bottom: 0px; right: 0px;">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <div style="width: 100%; height: 100%; border-bottom: 1px solid #3498db"></div>
+          </div>
+        </div>
+      </div>
+      <div id="j_770" class="snapp-html5 rotatable element fc Textbox" obj-name="T7Text1" original-width="275" style="width: auto; height: 40px; transform: translate(0px, 0px); top: 20px; left: 20px; right: 20px;">
+        <div class="textView-wrapper"><input type="text" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; font-family: &quot;Trebuchet MS&quot;;"></div>
+      </div>
+      <div id="j_771" class="snapp-html5 rotatable element fc Label" obj-name="L7Text1" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 295px; height: 40px; transform: translate(0px, -6px); left: 20px;">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="labeltxt1" fontstyle="normal" style="font-size: 9px; font-style: normal; font-weight: normal; color: rgb(128, 128, 128); text-align: left; vertical-align: middle; max-width: 295px; text-overflow: clip; height: 40px; padding: inherit; font-family: Montserrat-Medium;">labeltxt1</div>
+        </div>
+      </div>
+    </div>
+    <div id="j_772" class="snapp-html5 rotatable element fc Container" obj-name="C7Text2" original-width="315" style="opacity: 1; background-color: rgba(209, 52, 52, 0); overflow: hidden; width: auto; height: 63px; transform: translate(0px, 340px); left: 30px; right: 30px;">
+      <div class="container"></div>
+      <div id="j_773" class="snapp-html5 rotatable element fc Label" obj-name="C7Text2Line" original-height="63" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: auto; transform: translate(0px, 0px); top: 0px; left: 0px; bottom: 0px; right: 0px;">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <div style="width: 100%; height: 100%; border-bottom: 1px solid #3498db"></div>
+          </div>
+        </div>
+      </div>
+      <div id="j_774" class="snapp-html5 rotatable element fc Textbox" obj-name="T7Text2" original-width="275" style="width: auto; height: 40px; transform: translate(0px, 0px); top: 20px; left: 20px; right: 20px;">
+        <div class="textView-wrapper"><input type="text" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; font-family: &quot;Trebuchet MS&quot;;"></div>
+      </div>
+      <div id="j_775" class="snapp-html5 rotatable element fc Label" obj-name="L7Text2" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 295px; height: 40px; transform: translate(0px, -6px); left: 20px;">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="labeltxt2" fontstyle="normal" style="font-size: 9px; font-style: normal; font-weight: normal; color: rgb(128, 128, 128); text-align: left; vertical-align: middle; max-width: 295px; text-overflow: clip; height: 40px; padding: inherit; font-family: Montserrat-Medium;">labeltxt2</div>
+        </div>
+      </div>
+    </div>
+    <div id="j_776" class="snapp-html5 rotatable element fc Container" obj-name="C7Text3" original-width="315" style="opacity: 1; background-color: rgba(209, 52, 52, 0); overflow: hidden; width: auto; height: 63px; transform: translate(0px, 410px); left: 30px; right: 30px;">
+      <div class="container"></div>
+      <div id="j_777" class="snapp-html5 rotatable element fc Label" obj-name="C7Text3Line" original-height="63" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: auto; transform: translate(0px, 0px); top: 0px; left: 0px; bottom: 0px; right: 0px;">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <div style="width: 100%; height: 100%; border-bottom: 1px solid #3498db"></div>
+          </div>
+        </div>
+      </div>
+      <div id="j_778" class="snapp-html5 rotatable element fc Textbox" obj-name="T7Text3" original-width="275" style="width: auto; height: 40px; transform: translate(0px, 0px); top: 20px; left: 20px; right: 20px;">
+        <div class="textView-wrapper"><input type="text" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; font-family: &quot;Trebuchet MS&quot;;"></div>
+      </div>
+      <div id="j_779" class="snapp-html5 rotatable element fc Label" obj-name="L7Text3" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 295px; height: 40px; transform: translate(0px, -6px); left: 20px;">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="labeltxt3" fontstyle="normal" style="font-size: 9px; font-style: normal; font-weight: normal; color: rgb(128, 128, 128); text-align: left; vertical-align: middle; max-width: 295px; text-overflow: clip; height: 40px; padding: inherit; font-family: Montserrat-Medium;">labeltxt3</div>
+        </div>
+      </div>
+    </div>
+    <div id="j_780" class="snapp-html5 rotatable element fc Container" obj-name="C7Text4" original-width="315" style="opacity: 1; background-color: rgba(209, 52, 52, 0); overflow: hidden; width: auto; height: 63px; transform: translate(0px, 480px); left: 30px; right: 30px;">
+      <div class="container"></div>
+      <div id="j_781" class="snapp-html5 rotatable element fc Label" obj-name="C7Text4Line" original-height="63" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: auto; transform: translate(0px, 0px); top: 0px; left: 0px; bottom: 0px; right: 0px;">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <div style="width: 100%; height: 100%; border-bottom: 1px solid #3498db"></div>
+          </div>
+        </div>
+      </div>
+      <div id="j_782" class="snapp-html5 rotatable element fc Textbox" obj-name="T7Text4" original-width="275" style="width: auto; height: 40px; transform: translate(0px, 0px); top: 20px; left: 20px; right: 20px;">
+        <div class="textView-wrapper"><input type="text" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; font-family: &quot;Trebuchet MS&quot;;"></div>
+      </div>
+      <div id="j_783" class="snapp-html5 rotatable element fc Label" obj-name="L7Text4" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 295px; height: 40px; transform: translate(0px, -6px); left: 20px;">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="labeltxt4" fontstyle="normal" style="font-size: 9px; font-style: normal; font-weight: normal; color: rgb(128, 128, 128); text-align: left; vertical-align: middle; max-width: 295px; text-overflow: clip; height: 40px; padding: inherit; font-family: Montserrat-Medium;">labeltxt4</div>
+        </div>
+      </div>
+    </div>
+    <div id="j_784" class="snapp-html5 rotatable element fc Label" obj-name="B7ContinueStyle" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: 60px; transform: translate(0px, 0px); bottom: 60px; right: 30px; left: 30px;">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+          <style>
+            .main-button {
+              background: #2980b9;
+              background: -moz-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: -webkit-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: linear-gradient(to right, #2980b9 0%, #3498db 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2980b9', endColorstr='#3498db', GradientType=0);
+              width: 295px;
+              height: 40px;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+              margin: 10px;
+              border-radius: 200px;
+            }
+
+          </style>
+          <div class="main-button"></div>
+        </div>
+      </div>
+    </div>
+    <div id="j_785" class="snapp-html5 rotatable element fc Button" obj-name="B7Continue" original-width="295" style="width: auto; height: 40px; transform: translate(0px, 0px); left: 40px; right: 40px; bottom: 68px;">
+      <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 149, 219, 0); text-align: center; justify-content: center; font-size: 18px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">button1</span>
+      </div>
+    </div>
+    <div id="j_786" class="snapp-html5 rotatable element fc Image" obj-name="I7Hourglass" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 80px; height: 80px; transform: translate(148px, 294px) rotate(0deg);"><img src="img/blank_image.svg" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+    <div id="j_787" class="snapp-html5 rotatable element fc Label" obj-name="L7Link1" original-width="363"
+      style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 30px; transform: translate(0px, 0px); left: 6px; right: 6px; bottom: 35px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="link1" fontstyle="bold" style="font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: center; vertical-align: middle; max-width: 363px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-SemiBold;">link1</div>
+      </div>
+    </div>
+    <div id="j_788" class="snapp-html5 rotatable element fc Label" obj-name="L7Link2" original-width="363" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 30px; transform: translate(0px, 0px); left: 6px; right: 6px; bottom: 5px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="link2" fontstyle="bold" style="font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: center; vertical-align: middle; max-width: 363px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-SemiBold;">link2</div>
+      </div>
+    </div>
+    <div id="j_789" class="snapp-html5 rotatable element fc Container" obj-name="C7Progress" original-width="375" style="opacity: 1; background-color: rgb(240, 240, 240); overflow: hidden; width: auto; height: 6px; transform: translate(0px, 0px); left: 0px; right: 0px; top: 50px;">
+      <div class="container"></div>
+      <div id="j_790" class="snapp-html5 rotatable element fc Container" obj-name="C7ProgressComplete" style="opacity: 1; background-color: rgb(52, 152, 219); overflow: hidden; width: 80px; height: 6px; transform: translate(0px, 0px) rotate(0deg);">
+        <div class="container"></div>
+      </div>
+    </div>
+    <div id="j_791" class="snapp-html5 rotatable element fc Label" obj-name="L7RightInfo" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 155px; height: 141px; transform: translate(219px, 129px) rotate(0deg);">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;"></div>
+      </div>
+    </div>
+  </div>
+  <div id="j_792" class="snapp-html5 rotatable element fc Screen" overlay-color="rgba(255,255,255,0.75)" spinner-url="" obj-name="S3Verify" style="background-color: rgb(255, 255, 255); background-image: url(&quot;https://staging.snapp.click/api/v2/raws/projects/resources/c4245426-a4ca-47dd-9e90-4df20c18e4b9&quot;); width: 375px; height: 667px; transform: translate(874px, 827px) rotate(0deg);"><img src="" crossorigin="anonymous" style="display: none">
+    <div id="j_793" class="snapp-html5 rotatable element fc Image" obj-name="I3Logo" original-width="235" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: auto; height: 59px; transform: translate(0px, 0px); left: 70px; right: 70px; top: 200px;"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/d619a128-8b56-43f2-aeb1-787569a6dd08" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+    <div id="j_794" class="snapp-html5 rotatable element fc Container"
+      obj-name="C3Code" style="opacity: 1; background-color: rgba(209, 52, 52, 0); overflow: hidden; width: 325px; height: 40px; transform: translate(25px, 430px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_795" class="snapp-html5 rotatable element fc Label" obj-name="L3CodeIcon" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 305px; height: 40px; transform: translate(10px, 4px) rotate(0deg);">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <style>
+              @import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+              .input-wrapper {
+                text-align: left;
+                color: #434343;
+                border-bottom: 1px solid #3498db;
+                font-size: 24px;
+              }
+
+            </style>
+            <div class="input-wrapper">
+              <div style="color:#3498db; margin: 4px"> <i class="fas fa-check-circle"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="j_796" class="snapp-html5 rotatable element fc Label" obj-name="L3Code" style="background-color: rgba(255, 255, 255, 0); opacity: 0.5; width: 200px; height: 30px; transform: translate(50px, 9px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Verification Code" fontstyle="normal" style="font-size: 16px; font-style: normal; font-weight: normal; color: rgba(0, 0, 0, 0.56); text-align: left; vertical-align: middle; max-width: 200px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-Medium;">Verification&nbsp;Code</div>
+        </div>
+      </div>
+      <div id="j_797" class="snapp-html5 rotatable element fc Textbox" obj-name="T3Code" style="width: 270px; height: 35px; transform: translate(40px, 4px) rotate(0deg);">
+        <div class="textView-wrapper"><input type="text" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; font-family: &quot;Trebuchet MS&quot;; box-shadow: none;"></div>
+      </div>
+    </div>
+    <div id="j_798" class="snapp-html5 rotatable element fc Label" obj-name="B3EnrollStyle" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: 60px; transform: translate(0px, 0px); bottom: 70px; right: 30px; left: 30px;">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+          <style>
+            .main-button {
+              background: #2980b9;
+              background: -moz-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: -webkit-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: linear-gradient(to right, #2980b9 0%, #3498db 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2980b9', endColorstr='#3498db', GradientType=0);
+              width: 295px;
+              height: 40px;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+              margin: 10px;
+              border-radius: 200px;
+            }
+
+          </style>
+          <div class="main-button"></div>
+        </div>
+      </div>
+    </div>
+    <div id="j_799" class="snapp-html5 rotatable element fc Button" obj-name="B3Enroll" original-width="295" style="width: auto; height: 40px; transform: translate(0px, 0px); left: 40px; right: 40px; bottom: 78px;">
+      <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 149, 219, 0); text-align: center; justify-content: center; font-size: 18px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">ENROLL</span>
+      </div>
+    </div>
+    <div id="j_800" class="snapp-html5 rotatable element fc Label" obj-name="L3Info" original-width="305" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 135px; transform: translate(0px, 0px); left: 35px; right: 35px; top: 250px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Rich Text" fontstyle="normal" style="white-space: unset; font-size: 16px; font-style: normal; font-weight: normal; color: rgb(128, 128, 128); text-align: center; vertical-align: middle; max-width: 305px; text-overflow: clip; height: 135px; padding: inherit; font-family: Montserrat-Medium;">Please enter the verification code you received via e-mail...</div>
+      </div>
+    </div>
+    <div id="j_801" class="snapp-html5 rotatable element fc Image" obj-name="I3Hourglass" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 80px; height: 80px; transform: translate(148px, 294px) rotate(0deg);"><img src="img/blank_image.svg" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+    <div id="j_802" class="snapp-html5 rotatable element fc Button" obj-name="B3Login" original-width="363"
+      style="width: auto; height: 30px; transform: translate(0px, 0px); left: 6px; right: 6px; bottom: 40px;">
+      <div type="button" class="html5 btn system" fontstyle="bold" style="opacity: 1; background-color: rgba(51, 179, 230, 0); text-align: center; justify-content: center; font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">Log In</span>
+      </div>
+    </div>
+  </div>
+  <div id="j_803" class="snapp-html5 rotatable element fc Screen" overlay-color="rgba(255,255,255,0.75)" spinner-url="" obj-name="S4Login" style="background-color: rgb(255, 255, 255); background-image: url(&quot;https://staging.snapp.click/api/v2/raws/projects/resources/c4245426-a4ca-47dd-9e90-4df20c18e4b9&quot;); width: 375px; height: 667px; transform: translate(472px, 830px) rotate(0deg);"><img src="" crossorigin="anonymous" style="display: none">
+    <div id="j_804" class="snapp-html5 rotatable element fc Image" obj-name="I4Login" original-width="235" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: auto; height: 59px; transform: translate(0px, 0px); left: 70px; right: 70px; top: 200px;"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/d619a128-8b56-43f2-aeb1-787569a6dd08" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+    <div id="j_805" class="snapp-html5 rotatable element fc Container"
+      obj-name="C4Email" style="opacity: 1; background-color: rgba(255, 255, 255, 0); overflow: hidden; width: 325px; height: 40px; transform: translate(25px, 360px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_806" class="snapp-html5 rotatable element fc Label" obj-name="L4EmailIcon" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 305px; height: 40px; transform: translate(10px, 4px) rotate(0deg);">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <style>
+              @import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+              .input-wrapper {
+                text-align: left;
+                color: #434343;
+                border-bottom: 1px solid #3498db;
+                font-size: 24px;
+              }
+
+            </style>
+            <div class="input-wrapper">
+              <div style="color:#3498db; margin: 4px"> <i class="fas fa-envelope"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="j_807" class="snapp-html5 rotatable element fc Label" obj-name="L4Email" style="background-color: rgba(255, 255, 255, 0); opacity: 0.5; width: 122px; height: 30px; transform: translate(50px, 9px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="E-mail" fontstyle="normal" style="font-size: 16px; font-style: normal; font-weight: normal; color: rgba(0, 0, 0, 0.57); text-align: left; vertical-align: middle; max-width: 122px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-Medium;">E-mail</div>
+        </div>
+      </div>
+      <div id="j_808" class="snapp-html5 rotatable element fc Textbox" obj-name="T4Email" style="width: 270px; height: 35px; transform: translate(40px, 4px) rotate(0deg);">
+        <div class="textView-wrapper"><input type="text" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; box-shadow: none;"></div>
+      </div>
+    </div>
+    <div id="j_809" class="snapp-html5 rotatable element fc Container" obj-name="C4Pass" style="opacity: 1; background-color: rgba(209, 52, 52, 0); overflow: hidden; width: 325px; height: 40px; transform: translate(25px, 430px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_810" class="snapp-html5 rotatable element fc Label" obj-name="L4PassIcon" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 305px; height: 40px; transform: translate(10px, 4px) rotate(0deg);">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <style>
+              @import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+              .input-wrapper {
+                text-align: left;
+                color: #434343;
+                border-bottom: 1px solid #3498db;
+                font-size: 24px;
+              }
+
+            </style>
+            <div class="input-wrapper">
+              <div style="color:#3498db; margin: 4px"> <i class="fas fa-lock"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="j_811" class="snapp-html5 rotatable element fc Label" obj-name="L4Pass" style="background-color: rgba(255, 255, 255, 0); opacity: 0.5; width: 122px; height: 30px; transform: translate(50px, 9px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Password" fontstyle="normal" style="font-size: 16px; font-style: normal; font-weight: normal; color: rgba(0, 0, 0, 0.6); text-align: left; vertical-align: middle; max-width: 122px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-Medium;">Password</div>
+        </div>
+      </div>
+      <div id="j_812" class="snapp-html5 rotatable element fc Textbox" obj-name="T4Pass" style="width: 270px; height: 35px; transform: translate(39px, 5px) rotate(0deg);">
+        <div class="textView-wrapper"><input type="password" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; box-shadow: none;"></div>
+      </div>
+    </div>
+    <div id="j_813" class="snapp-html5 rotatable element fc Label" obj-name="B4LoginStyle" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: 60px; transform: translate(0px, 0px); bottom: 70px; right: 30px; left: 30px;">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+          <style>
+            .main-button {
+              background: #2980b9;
+              background: -moz-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: -webkit-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: linear-gradient(to right, #2980b9 0%, #3498db 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2980b9', endColorstr='#3498db', GradientType=0);
+              width: 295px;
+              height: 40px;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+              margin: 10px;
+              border-radius: 200px;
+            }
+
+          </style>
+          <div class="main-button"></div>
+        </div>
+      </div>
+    </div>
+    <div id="j_814" class="snapp-html5 rotatable element fc Button" obj-name="B4Login" original-width="295" style="width: auto; height: 40px; transform: translate(0px, 0px); left: 40px; right: 40px; bottom: 78px;">
+      <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 149, 219, 0); text-align: center; justify-content: center; font-size: 18px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">LOGIN</span>
+      </div>
+    </div>
+    <div id="j_815" class="snapp-html5 rotatable element fc Label" obj-name="L4Info" original-width="305" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 105px; transform: translate(0px, 0px); left: 35px; right: 35px; top: 250px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Rich Text" fontstyle="normal" style="white-space: unset; font-size: 16px; font-style: normal; font-weight: normal; color: rgb(128, 128, 128); text-align: center; vertical-align: middle; max-width: 305px; text-overflow: clip; height: 105px; padding: inherit; font-family: Montserrat-Medium;">Please Insert e-mail and password to log in</div>
+      </div>
+    </div>
+    <div id="j_816" class="snapp-html5 rotatable element fc Image" obj-name="I4Hourglass" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 80px; height: 80px; transform: translate(148px, 294px) rotate(0deg);"><img src="img/blank_image.svg" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+    <div id="j_817" class="snapp-html5 rotatable element fc Label" obj-name="L4ForgotPass" original-width="363"
+      style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 30px; transform: translate(0px, 0px); left: 6px; right: 6px; bottom: 40px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Forgot password" fontstyle="bold" style="font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: center; vertical-align: middle; max-width: 363px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-SemiBold;">Forgot&nbsp;password</div>
+      </div>
+    </div>
+    <div id="j_818" class="snapp-html5 rotatable element fc Button" obj-name="B4Enroll" original-width="363" style="width: auto; height: 30px; transform: translate(0px, 0px); left: 6px; right: 6px; bottom: 10px;">
+      <div type="button" class="html5 btn system" fontstyle="bold" style="opacity: 1; background-color: rgba(51, 179, 230, 0); text-align: center; justify-content: center; font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">Enroll</span>
+      </div>
+    </div>
+  </div>
+  <div id="j_819" class="snapp-html5 rotatable element fc Screen" overlay-color="rgba(255,255,255,0.75)" spinner-url="" obj-name="S6MultipleChoice" style="background-color: rgb(255, 255, 255); width: 375px; height: 667px; transform: translate(874px, 106px) rotate(0deg);"><img src="" crossorigin="anonymous" style="display: none">
+    <div id="j_820" class="snapp-html5 rotatable element fc Container" obj-name="S6ParentContainer" style="opacity: 1; background-color: rgb(248, 248, 248); overflow: hidden; width: 375px; height: 50px; transform: translate(0px, 0px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_821" class="snapp-html5 rotatable element fc Container" obj-name="C6Parent" style="opacity: 1; background-color: rgba(247, 247, 247, 0); overflow: hidden; width: 133px; height: 52px; transform: translate(0px, 0px) rotate(0deg);">
+        <div class="container"></div>
+        <div id="j_822" class="snapp-html5 rotatable element fc Image" obj-name="I6Parent" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 16px; height: 30px; transform: translate(11px, 11px) rotate(0deg);"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/cb54411f-9bdb-46cd-8173-b18d3c502900" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+        <div id="j_823"
+          class="snapp-html5 rotatable element fc Label" obj-name="L6Parent" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 84px; height: 40px; transform: translate(0px, 0px); top: 6px; left: 32px;">
+          <div class="label-wrapper">
+            <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="parent" fontstyle="bold" style="font-size: 14px; font-family: &quot;Trebuchet MS&quot;; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: left; vertical-align: middle; max-width: 84px; text-overflow: clip; height: 40px; padding: inherit;">parent</div>
+          </div>
+        </div>
+      </div>
+      <div id="j_824" class="snapp-html5 rotatable element fc Image" obj-name="I6Logo" original-width="175" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: auto; height: 40px; transform: translate(0px, 0px); left: 100px; right: 100px; top: 5px;"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/d619a128-8b56-43f2-aeb1-787569a6dd08" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+      <div id="j_825" class="snapp-html5 rotatable element fc Label"
+        obj-name="L6TopLink" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 58px; height: 40px; transform: translate(317px, 5px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="C Help" fontstyle="bold" style="font-size: 14px; font-family: &quot;Trebuchet MS&quot;; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: center; vertical-align: middle; max-width: 58px; text-overflow: clip; height: 40px; padding: inherit;">C&nbsp;Help</div>
+        </div>
+      </div>
+    </div>
+    <div id="j_826" class="snapp-html5 rotatable element fc Label" obj-name="L6Title" original-width="305" style="background-color: rgba(26, 24, 24, 0); opacity: 1; width: auto; height: 60px; transform: translate(0px, 0px); top: 70px; left: 35px; right: 35px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Title" fontstyle="normal" style="font-size: 28px; font-style: normal; font-weight: normal; color: rgb(67, 67, 67); text-align: left; vertical-align: middle; max-width: 305px; text-overflow: clip; height: 60px; padding: inherit; font-family: Montserrat-SemiBold;">Title</div>
+      </div>
+    </div>
+    <div id="j_827" class="snapp-html5 rotatable element fc Label" obj-name="B6ContinueStyle" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: 60px; transform: translate(0px, 0px); bottom: 60px; right: 30px; left: 30px;">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+          <style>
+            .main-button {
+              background: #2980b9;
+              background: -moz-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: -webkit-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: linear-gradient(to right, #2980b9 0%, #3498db 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2980b9', endColorstr='#3498db', GradientType=0);
+              width: 295px;
+              height: 40px;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+              margin: 10px;
+              border-radius: 200px;
+            }
+
+          </style>
+          <div class="main-button"></div>
+        </div>
+      </div>
+    </div>
+    <div id="j_828" class="snapp-html5 rotatable element fc Button" obj-name="B6Continue" original-width="295" style="width: auto; height: 40px; transform: translate(0px, 0px); left: 40px; right: 40px; bottom: 68px;">
+      <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 149, 219, 0); text-align: center; justify-content: center; font-size: 18px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">button1</span>
+      </div>
+    </div>
+    <div id="j_829" class="snapp-html5 rotatable element fc Label" obj-name="I6Info" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 305px; height: 300px; transform: translate(35px, 0px); top: 140px;">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">label</div>
+      </div>
+    </div>
+    <div id="j_830" class="snapp-html5 rotatable element fc Label" obj-name="L6Link2" original-width="363" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 30px; transform: translate(0px, 0px); left: 6px; right: 6px; bottom: 5px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="link2" fontstyle="bold" style="font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: center; vertical-align: middle; max-width: 363px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-SemiBold;">link2</div>
+      </div>
+    </div>
+    <div id="j_831" class="snapp-html5 rotatable element fc Label" obj-name="L6Link1" original-width="363" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 30px; transform: translate(0px, 0px); left: 6px; right: 6px; bottom: 35px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="link1" fontstyle="bold" style="font-size: 14px; font-style: normal; font-weight: bold; color: rgb(52, 152, 219); text-align: center; vertical-align: middle; max-width: 363px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-SemiBold;">link1</div>
+      </div>
+    </div>
+    <div id="j_832" class="rotatable element fc ListView" obj-name="LV6Choices" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 325px; height: 250px; transform: translate(25px, 250px) rotate(0deg);">
+      <div class="ListView"></div>
+      <div id="j_833" class="rotatable element fc ListViewCell" cell-highlight="NO" cell-highlight-color="rgba(255, 255, 255, 1)" cell-bg-color="rgba(255, 255, 255, 1)" obj-name="LVC6Choices" style="opacity: 1; background-color: rgb(255, 255, 255); width: 325px; height: 80px; transform: translate(0px, 0px) rotate(0deg);">
+        <div class="ListViewCell"></div>
+        <div class="border-sep" style="position:absolute;left:0;bottom:0;width:100%;height:3px;background:rgba(222, 222, 222, 0)"></div>
+        <div id="j_834" class="snapp-html5 rotatable element fc Label" obj-name="L6DropShadow" style="background-color: rgb(255, 255, 255); opacity: 1; width: 325px; height: 80px; transform: translate(0px, 0px) rotate(0deg);">
+          <div class="label-wrapper">
+            <style type="text/css" name="customFont">
+              @font-face {
+                font-family: 'Montserrat-Medium';
+                src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+              }
+              
+              @font-face {
+                font-family: 'Montserrat-SemiBold';
+                src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+              }
+
+            </style>
+            <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+              <div style="width: 90%;height:60px; box-shadow: 0px 0px 10px rgba(0,0,0,.2); margin: 10px; border-radius: 6px"></div>
+            </div>
+          </div>
+        </div>
+        <div id="j_835" class="snapp-html5 rotatable element fc Image" obj-name="I6Icon" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 30px; height: 30px; transform: translate(25px, 25px) rotate(0deg);"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/33d23d80-9a3c-45e3-9942-0bd0dfb6236a" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+        <div id="j_836"
+          class="snapp-html5 rotatable element fc Label" obj-name="L6Choice" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 225px; height: 60px; transform: translate(75px, 10px) rotate(0deg);">
+          <div class="label-wrapper">
+            <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Label" fontstyle="normal" style="font-size: 14px; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: middle; max-width: 225px; text-overflow: clip; height: 60px; padding: inherit; font-family: Montserrat-Medium;">Label</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="j_837" class="snapp-html5 rotatable element fc Container" obj-name="C6Progress" original-width="375" style="opacity: 1; background-color: rgb(240, 240, 240); overflow: hidden; width: auto; height: 6px; transform: translate(0px, 0px); left: 0px; right: 0px; top: 50px;">
+      <div class="container"></div>
+      <div id="j_838" class="snapp-html5 rotatable element fc Container" obj-name="C6ProgressComplete" style="opacity: 1; background-color: rgb(52, 152, 219); overflow: hidden; width: 80px; height: 6px; transform: translate(0px, 0px) rotate(0deg);">
+        <div class="container"></div>
+      </div>
+    </div>
+    <div id="j_839" class="snapp-html5 rotatable element fc Image" obj-name="I6Hourglass" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 80px; height: 80px; transform: translate(148px, 294px) rotate(0deg);"><img src="img/blank_image.svg" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+    <div id="j_840" class="snapp-html5 rotatable element fc Label" obj-name="L6Warning" style="background-color: rgb(255, 255, 255); opacity: 1; width: 267px; height: 40px; transform: translate(48px, 500px) rotate(0deg);">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Label" fontstyle="normal" style="font-size: 14px; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: middle; max-width: 267px; text-overflow: clip; height: 40px; padding: inherit; font-family: Montserrat-Medium;">Label</div>
+      </div>
+    </div>
+  </div>
+  <div id="j_841" class="snapp-html5 rotatable element fc Screen" overlay-color="rgba(255,255,255,0.75)" spinner-url="" obj-name="S5Pass" style="background-color: rgb(255, 255, 255); background-image: url(&quot;https://staging.snapp.click/api/v2/raws/projects/resources/c4245426-a4ca-47dd-9e90-4df20c18e4b9&quot;); width: 375px; height: 667px; transform: translate(72px, 834px) rotate(0deg);"><img src="" crossorigin="anonymous" style="display: none">
+    <div id="j_842" class="snapp-html5 rotatable element fc Image" obj-name="I5Logo" original-width="235" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: auto; height: 59px; transform: translate(0px, 0px); left: 70px; right: 70px; top: 200px;"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/d619a128-8b56-43f2-aeb1-787569a6dd08" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+    <div id="j_843" class="snapp-html5 rotatable element fc Container"
+      obj-name="C5Pass" style="opacity: 1; background-color: rgba(255, 255, 255, 0); overflow: hidden; width: 325px; height: 40px; transform: translate(25px, 360px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_844" class="snapp-html5 rotatable element fc Label" obj-name="L5PassIcon" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 305px; height: 40px; transform: translate(10px, 0px) rotate(0deg);">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <style>
+              @import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+              .input-wrapper {
+                text-align: left;
+                color: #434343;
+                border-bottom: 1px solid #3498db;
+                font-size: 24px;
+              }
+
+            </style>
+            <div class="input-wrapper">
+              <div style="color:#3498db; margin: 4px"> <i class="fas fa-lock"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="j_845" class="snapp-html5 rotatable element fc Label" obj-name="L5Pass" style="background-color: rgba(255, 255, 255, 0); opacity: 0.5; width: 122px; height: 30px; transform: translate(50px, 5px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Password" fontstyle="normal" style="font-size: 16px; font-style: normal; font-weight: normal; color: rgba(0, 0, 0, 0.57); text-align: left; vertical-align: middle; max-width: 122px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-Medium;">Password</div>
+        </div>
+      </div>
+      <div id="j_846" class="snapp-html5 rotatable element fc Textbox" obj-name="T5Pass" style="width: 260px; height: 35px; transform: translate(50px, 0px) rotate(0deg);">
+        <div class="textView-wrapper"><input type="password" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; box-shadow: none;"></div>
+      </div>
+    </div>
+    <div id="j_847" class="snapp-html5 rotatable element fc Container" obj-name="C5Confirm" style="opacity: 1; background-color: rgba(255, 255, 255, 0); overflow: hidden; width: 325px; height: 40px; transform: translate(25px, 430px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_848" class="snapp-html5 rotatable element fc Label" obj-name="L5ConfirmIcon" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 305px; height: 40px; transform: translate(10px, 0px) rotate(0deg);">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <style>
+              @import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+              .input-wrapper {
+                text-align: left;
+                color: #434343;
+                border-bottom: 1px solid #3498db;
+                font-size: 24px;
+              }
+
+            </style>
+            <div class="input-wrapper">
+              <div style="color:#3498db; margin: 4px"> <i class="fas fa-lock"></i> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="j_849" class="snapp-html5 rotatable element fc Label" obj-name="L5Confirm" style="background-color: rgba(255, 255, 255, 0); opacity: 0.5; width: 200px; height: 30px; transform: translate(50px, 5px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="Confirm Password" fontstyle="normal" style="font-size: 16px; font-style: normal; font-weight: normal; color: rgba(0, 0, 0, 0.6); text-align: left; vertical-align: middle; max-width: 200px; text-overflow: clip; height: 30px; padding: inherit; font-family: Montserrat-Medium;">Confirm&nbsp;Password</div>
+        </div>
+      </div>
+      <div id="j_850" class="snapp-html5 rotatable element fc Textbox" obj-name="T5Confirm" style="width: 260px; height: 35px; transform: translate(50px, 0px) rotate(0deg);">
+        <div class="textView-wrapper"><input type="password" class="textView" value="" fontstyle="normal" style="opacity: 1; background-color: rgba(255, 255, 255, 0); border-color: rgba(0, 0, 0, 0); font-size: 16px; color: rgb(128, 128, 128); text-align: left; font-style: normal; font-weight: normal; box-shadow: none;"></div>
+      </div>
+    </div>
+    <div id="j_851" class="snapp-html5 rotatable element fc Label" obj-name="B5ContinueStyle" original-width="315" style="background-color: rgb(255, 255, 255); opacity: 1; width: auto; height: 60px; transform: translate(0px, 0px); bottom: 70px; right: 30px; left: 30px;">
+      <div class="label-wrapper">
+        <style type="text/css" name="customFont">
+          @font-face {
+            font-family: 'Montserrat-Medium';
+            src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+          }
+          
+          @font-face {
+            font-family: 'Montserrat-SemiBold';
+            src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+          }
+
+        </style>
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+          <style>
+            .main-button {
+              background: #2980b9;
+              background: -moz-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: -webkit-linear-gradient(left, #2980b9 0%, #3498db 100%);
+              background: linear-gradient(to right, #2980b9 0%, #3498db 100%);
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2980b9', endColorstr='#3498db', GradientType=0);
+              width: 295px;
+              height: 40px;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+              margin: 10px;
+              border-radius: 200px;
+            }
+
+          </style>
+          <div class="main-button"></div>
+        </div>
+      </div>
+    </div>
+    <div id="j_852" class="snapp-html5 rotatable element fc Button" obj-name="B5Continue" original-width="295" style="width: auto; height: 40px; transform: translate(0px, 550px); left: 40px; right: 40px;">
+      <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 149, 219, 0); text-align: center; justify-content: center; font-size: 18px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255);">
+        <div class="img-container" style="display: none;">
+          <img class="foreground" src="" crossorigin="anonymous">
+
+        </div>
+        <span class="text">CONTINUE</span>
+      </div>
+    </div>
+    <div id="j_853" class="snapp-html5 rotatable element fc Label" obj-name="L5Info" original-width="305" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: auto; height: 105px; transform: translate(0px, 0px); left: 35px; right: 35px; top: 250px;">
+      <div class="label-wrapper">
+        <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Rich Text" fontstyle="normal" style="white-space: unset; font-size: 16px; font-style: normal; font-weight: normal; color: rgb(128, 128, 128); text-align: center; vertical-align: middle; max-width: 305px; text-overflow: clip; height: 105px; padding: inherit; font-family: Montserrat-Medium;">Please set a new password</div>
+      </div>
+    </div>
+    <div id="j_854" class="snapp-html5 rotatable element fc Image" obj-name="I5Hourglass" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 80px; height: 80px; transform: translate(148px, 294px) rotate(0deg);"><img src="img/blank_image.svg" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+  </div>
+  <div id="j_855" class="snapp-html5 rotatable element fc Screen" overlay-color="rgba(255,255,255,0.75)" spinner-url="" obj-name="S1Dashboard" style="background-color: rgb(255, 255, 255); width: 375px; height: 667px; transform: translate(1290px, 106px) rotate(0deg);"><img src="" crossorigin="anonymous" style="display: none">
+    <div id="j_856" class="snapp-html5 rotatable element fc Container" obj-name="C1Header" style="opacity: 1; background-color: rgb(52, 152, 219); overflow: hidden; width: 375px; height: 50px; transform: translate(0px, 0px); top: 0px;">
+      <div class="container"></div>
+      <div id="j_857" class="snapp-html5 rotatable element fc Image" obj-name="I1Logo" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 160px; height: 40px; transform: translate(108px, 5px) rotate(0deg);"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/3acb0b0c-1092-4345-9ff6-c36aa9ca3865" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+      <div id="j_858" class="snapp-html5 rotatable element fc Button"
+        obj-name="B1LogOut" style="width: 80px; height: 50px; transform: translate(0px, 2px) rotate(0deg);">
+        <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 179, 230, 0); text-align: center; justify-content: center; font-size: 14px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255); font-family: Helvetica;">
+          <div class="img-container" style="display: none;">
+            <img class="foreground" src="" crossorigin="anonymous">
+
+          </div>
+          <span class="text">yfhvhf</span>
+        </div>
+      </div>
+    </div>
+    <div id="j_859" class="snapp-html5 rotatable element fc Container" obj-name="C1Dash" style="opacity: 1; background-color: rgb(26, 119, 186); overflow: hidden; width: 375px; height: 180px; transform: translate(0px, 0px); top: 50px;">
+      <div class="container"></div>
+      <div id="j_860" class="snapp-html5 rotatable element fc Label" obj-name="L1Dash" style="background-color: rgba(255, 255, 255, 0); opacity: 1; width: 335px; height: 140px; transform: translate(20px, 20px) rotate(0deg);">
+        <div class="label-wrapper">
+          <style type="text/css" name="customFont">
+            @font-face {
+              font-family: 'Montserrat-Medium';
+              src: local('Montserrat-Medium'), url(https://staging.snapp.click/api/v2/raws/projects/resources/c35b1f82-2030-4f2f-ba70-2847d532cb2a) format('truetype');
+            }
+            
+            @font-face {
+              font-family: 'Montserrat-SemiBold';
+              src: local('Montserrat-SemiBold'), url(https://staging.snapp.click/api/v2/raws/projects/resources/284006f9-b45d-4848-8245-adcfa3d9eb1f) format('truetype');
+            }
+
+          </style>
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="HTML" style="font-size: 14px; font-family: Helvetica; font-style: normal; color: rgb(0, 0, 0); text-align: left; vertical-align: top; white-space: unset;">
+            <style>
+              @import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,600');
+              #time-date-wrapper {
+                font-family: 'Montserrat', sans-serif;
+                color: white;
+                display: table;
+                margin: 0 auto;
+              }
+              
+              #time-date-inner {
+                display: table-row;
+              }
+              
+              .date-col-left,
+              .date-col-right {
+                display: table-cell;
+                vertical-align: middle;
+              }
+              
+              #date {
+                font-size: 8em;
+                text-align: right;
+                font-weight: 200;
+                margin: 0px;
+              }
+              
+              #month {
+                text-transform: uppercase;
+                letter-spacing: 3px;
+                font-weight: 600;
+                font-size: 2rem;
+                margin: 5px;
+                text-align: left;
+              }
+              
+              #day {
+                font-weight: 300;
+                font-size: 4rem;
+                margin: 5px;
+                text-align: left;
+              }
+
+            </style>
+            <div id="time-date-wrapper">
+              <div id="time-date-inner">
+                <div class="date-col-left">
+                  <p id="date">8</p>
+                </div>
+                <div class="date-col-right">
+                  <p id="month">September</p>
+                  <p id="day">Monday</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="j_861" class="snapp-html5 rotatable element fc Container" obj-name="C1Links1" style="opacity: 1; background-color: rgb(52, 152, 219); overflow: hidden; width: 315px; height: 70px; transform: translate(30px, 280px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_862" class="snapp-html5 rotatable element fc Label" obj-name="L1Links1" style="background-color: rgb(52, 152, 219); opacity: 1; width: 215px; height: 70px; transform: translate(15px, 0px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="" fontstyle="normal" style="font-size: 20px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255); text-align: left; vertical-align: middle; max-width: 215px; text-overflow: clip; height: 70px; padding: inherit; font-family: Montserrat-Medium;"></div>
+        </div>
+      </div>
+      <div id="j_863" class="snapp-html5 rotatable element fc Container" obj-name="C1Icon1" style="opacity: 1; background-color: rgb(26, 119, 186); overflow: hidden; width: 85px; height: 70px; transform: translate(230px, 0px) rotate(0deg);">
+        <div class="container"></div>
+        <div id="j_864" class="snapp-html5 rotatable element fc Image" obj-name="I1Icon1" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 55px; height: 55px; transform: translate(15px, 7px) rotate(0deg);"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/2762b0b9-3577-487b-819f-1ef246f6fb3b" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+      </div>
+      <div id="j_865" class="snapp-html5 rotatable element fc Button" obj-name="B1Link1" style="width: 315px; height: 70px; transform: translate(0px, 0px) rotate(0deg);">
+        <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 179, 230, 0); text-align: center; justify-content: center; font-size: 14px; font-style: normal; font-weight: normal; color: rgba(255, 255, 255, 0);">
+          <div class="img-container" style="display: none;">
+            <img class="foreground" src="" crossorigin="anonymous">
+
+          </div>
+          <span class="text">Button</span>
+        </div>
+      </div>
+    </div>
+    <div id="j_866" class="snapp-html5 rotatable element fc Container" obj-name="C1Links2" style="opacity: 1; background-color: rgb(52, 152, 219); overflow: hidden; width: 315px; height: 70px; transform: translate(30px, 380px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_867" class="snapp-html5 rotatable element fc Label" obj-name="L1Links2" style="background-color: rgb(52, 152, 219); opacity: 1; width: 215px; height: 70px; transform: translate(15px, 0px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="" fontstyle="normal" style="font-size: 20px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255); text-align: left; vertical-align: middle; max-width: 215px; text-overflow: clip; height: 70px; padding: inherit; font-family: Montserrat-Medium;"></div>
+        </div>
+      </div>
+      <div id="j_868" class="snapp-html5 rotatable element fc Container" obj-name="C1Icon2" style="opacity: 1; background-color: rgb(26, 119, 186); overflow: hidden; width: 85px; height: 70px; transform: translate(230px, 0px) rotate(0deg);">
+        <div class="container"></div>
+        <div id="j_869" class="snapp-html5 rotatable element fc Image" obj-name="I1Icon2" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 55px; height: 55px; transform: translate(15px, 7px) rotate(0deg);"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/d9869bda-c07f-4675-80a2-6a0c2d5ad2dc" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+      </div>
+      <div id="j_870" class="snapp-html5 rotatable element fc Button" obj-name="B1Link2" style="width: 315px; height: 70px; transform: translate(0px, 0px) rotate(0deg);">
+        <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 179, 230, 0); text-align: center; justify-content: center; font-size: 14px; font-style: normal; font-weight: normal; color: rgba(255, 255, 255, 0); font-family: Arial;">
+          <div class="img-container" style="display: none;">
+            <img class="foreground" src="" crossorigin="anonymous">
+
+          </div>
+          <span class="text" style="display: none;">Button</span>
+        </div>
+      </div>
+    </div>
+    <div id="j_871" class="snapp-html5 rotatable element fc Container" obj-name="C1Links3" style="opacity: 1; background-color: rgb(52, 152, 219); overflow: hidden; width: 315px; height: 70px; transform: translate(30px, 480px) rotate(0deg);">
+      <div class="container"></div>
+      <div id="j_872" class="snapp-html5 rotatable element fc Label" obj-name="L1Links3" style="background-color: rgb(52, 152, 219); opacity: 1; width: 215px; height: 70px; transform: translate(15px, 0px) rotate(0deg);">
+        <div class="label-wrapper">
+          <div class="label wordwrap" id="cklabel" contenteditable="false" textformat="Plain Text" plain_text="" fontstyle="normal" style="font-size: 20px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255); text-align: left; vertical-align: middle; max-width: 215px; text-overflow: clip; height: 70px; padding: inherit; font-family: Montserrat-Medium;"></div>
+        </div>
+      </div>
+      <div id="j_873" class="snapp-html5 rotatable element fc Container" obj-name="C1Icon3" style="opacity: 1; background-color: rgb(26, 119, 186); overflow: hidden; width: 85px; height: 70px; transform: translate(230px, 0px) rotate(0deg);">
+        <div class="container"></div>
+        <div id="j_874" class="snapp-html5 rotatable element fc Image" obj-name="I1Icon3" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 55px; height: 55px; transform: translate(15px, 7px) rotate(0deg);"><img src="https://staging.snapp.click/api/v2/raws/projects/resources/9aa72d25-61d7-4670-90a7-7836cebffeca" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+      </div>
+      <div id="j_875" class="snapp-html5 rotatable element fc Button" obj-name="B1Link3" style="width: 315px; height: 70px; transform: translate(0px, 0px) rotate(0deg);">
+        <div type="button" class="html5 btn system" fontstyle="normal" style="opacity: 1; background-color: rgba(51, 179, 230, 0); text-align: center; justify-content: center; font-size: 14px; font-style: normal; font-weight: normal; color: rgba(255, 255, 255, 0); font-family: Arial;">
+          <div class="img-container" style="display: none;">
+            <img class="foreground" src="" crossorigin="anonymous">
+
+          </div>
+          <span class="text" style="display: none;">Button</span>
+        </div>
+      </div>
+    </div>
+    <div id="j_876" class="snapp-html5 rotatable element fc Image" obj-name="I1Hourglass" style="opacity: 1; background-color: rgba(255, 255, 255, 0); width: 80px; height: 80px; transform: translate(148px, 294px) rotate(0deg);"><img src="img/blank_image.svg" crossorigin="anonymous" onmousedown="return false;" scale-type="stretch" style="width: inherit; height: inherit;"></div>
+  </div>
+
+</body>
+
+</html>
